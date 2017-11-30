@@ -1,0 +1,374 @@
+
+.mainContainer{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.topBarLeft{
+	position: relative;
+    top: 10px;
+    /*padding-left: 60px;*/
+}
+
+.topBarFontColor i{
+	color: whitesmoke;
+}
+
+/*@media screen and (min-width: 320px){
+	.navtop{
+		text-align: center;
+		height: 100px;
+		padding-bottom: 25px;
+	}
+	.navTopRight{
+		text-align: center;
+
+	}
+}*/
+
+.topBarFontColor a{
+	font-size:1.2em;
+	color: whitesmoke;
+	padding-right: 18px;
+}
+
+.topBarRight{
+	position: relative;
+    top: 14px;
+    
+}
+
+.topBarRight a{
+	color: whitesmoke;
+	padding-right: 44px;
+}
+
+.topBarFontColor{
+	color: #9d9d9d;
+	/*padding-right: 18px;
+	padding-left: 18px;*/
+}
+
+.navTop{
+	background-color: #332C2C;
+	height: 49px;
+}
+
+.hover ul li:hover{
+	background: blue;
+}
+.widgetBoxLeft{
+	background:#ffffff;
+	border:  1px solid #EFEFEF;
+	padding-top: 12px;
+	width: 95%;
+    position: relative;
+    left: 50px;
+    border-radius: 2%;
+
+}
+
+.manualBreadcrumb{
+	width: 83%;
+    position: relative;
+    left: 23px;
+}
+
+h1{
+	text-transform: none;
+	margin-top:0;
+	font-size:1.6em;
+}
+
+.tabs{
+	border: 1px solid #cededc;
+	height: 62px;
+}
+
+.businessDetails{
+
+	padding-right: 25px;
+}
+
+.indiaBizBtn{
+	width:100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size:1.6em !important; 
+	/*background-image: linear-gradient(to bottom, #009688 0%, #00B09F 100%);*/
+	
+	background-color: #00B09F !important;
+}
+
+.indiaBizOr{
+	text-align: center;
+	font-size:large;
+	margin-bottom:10px;
+}
+
+.indiaBizSendMessage{
+	width:100%;
+	margin-bottom:10px;
+	font-size:1.6em !important;
+}
+
+.rightTabs{
+	width: 75%;
+}
+
+.tabsRight{
+	margin-bottom:0px;
+	text-align:center;
+
+}
+
+.tabsRightHeader{
+	font-family: 'Josefin Slab', serif;
+	width:50%;
+	margin-right: 0;
+	/*font-size:1.2em;*/
+}
+
+.tabsRightBody{
+	
+	font-weight:500;
+}
+
+.indiaBizImg{
+	width:100%;
+	height:200px;
+}
+
+.boxShadow{
+	background-color:#FAFAFA;
+	/*padding:20px;*/
+}
+
+.title{
+	margin-bottom:0%;
+}
+
+.boxShadowTitle{
+	color:#212121;
+	font-size:large;
+}
+
+.boxShadowDetails{
+	background-color:#FAFAFA;
+	font-size:large;
+	margin-top: 10px;
+}
+
+.boxShadowBody{
+	font-size:large;
+	color:lightcoral;
+}
+
+.boxShadowRupeeSymbol{
+	font-size:0.9em;
+	color: #216C2A;
+}
+
+.boxShadowDetailsPadding{
+	padding-right: 43px;
+    padding-left: 18px;
+}
+
+.indiaBizImagesSection{
+	    margin-top: 38px;
+}
+
+.footer{
+	margin-top: 30px;
+}
+
+.partBusiness{
+	text-align: justify;
+	text-justify: inter-word;
+	padding-right: 20px;
+}
+
+ul.list a{
+	color: whitesmoke;
+}
+
+
+
+/*--- Media Queries for 320px Start ---*/
+
+@media screen and (max-width: 320px) {
+
+.navTop{
+	height: 82px !important;
+}
+
+.tabs{
+	height:84px;
+}
+
+.rightTabs{
+	width: 100%;
+}
+
+.partBusiness{
+	padding-right: 19px;
+}
+
+.widgetBoxLeft{
+	width: 100%;
+	left: 0px;
+}
+
+.rightTabs1{
+	padding-top: 11px;
+}
+
+.indiaBizImg{
+	margin-top: 17px;
+}
+
+}
+
+/*--- Media Queries for 320px End ---*/
+
+/*--- Media Queries for 375px Start ---*/
+
+@media screen and (max-width: 375px){
+
+.navTop{
+	height: 95px !important;
+}
+
+.topBarRight{
+	text-align: center;
+}
+
+.tabs{
+	height:84px;
+}
+
+.rightTabs{
+	width: 100%;
+}
+
+.partBusiness{
+	padding-right: 19px;
+}
+
+.widgetBoxLeft{
+	width: 100%;
+	left: 0px;
+}
+
+.rightTabs1{
+	padding-top: 11px;
+}
+
+.indiaBizImg{
+	margin-top: 17px;
+}
+
+
+}
+
+/*--- Media Queries for 375px Start ---*/
+
+
+/*--- Media Queries for 425px Start ---*/
+
+@media screen and (max-width: 425px){
+
+.navTop{
+	height: 95px !important;
+}
+
+.topBarRight{
+	text-align: center;
+}
+
+.tabs{
+	height:84px;
+}
+
+.rightTabs{
+	width: 100%;
+}
+
+.partBusiness{
+	padding-right: 19px;
+}
+
+.widgetBoxLeft{
+	width: 100%;
+	left: 0px;
+}
+
+.rightTabs1{
+	padding-top: 11px;
+}
+
+.indiaBizImg{
+	margin-top: 17px;
+}
+
+
+}
+
+/*--- Media Queries for 425px Start ---*/
+
+/*--- Media Queries for 768px Start ---*/
+
+@media screen and (max-width: 768px){
+
+.navTop{
+	height: 56px;
+}
+
+.widgetBoxLeft{
+	left: 28px;
+}
+
+.boxShadowTitle, .boxShadowDetails{
+	font-size: medium;
+}
+
+.boxShadowDetailsPadding{
+	padding-right: 0px;
+}
+
+.tabs{
+	height: 83px;
+}
+
+.tabsRight{
+	padding-top: 23px;
+}
+
+.tabsRight2{
+	    position: relative;
+    bottom: 11px;
+}
+
+}
+
+/*--- Media Queries for 768px End ---*/
+
+/*--- Media Queries for 1024px Start ---*/
+
+@media screen and (max-width: 1024px){
+
+.indiaBizBtn, .indiaBizSendMessage{
+	font-size: initial !important;
+}
+
+.tabs{
+	height: 81px;
+}
+
+.tabsRight{
+	padding-top: 15px;
+}
+
+}
+
+/*--- Media Queries for 1024px End ---*/
